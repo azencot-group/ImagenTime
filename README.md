@@ -15,7 +15,7 @@ cd ImagenTime
 We provide a [`requirements.yaml`](requirements.yaml) file to easily create a Conda environment configured to run the model:
 ```bash
 conda env create -f requirements.yaml
-conda activate ts2img
+conda activate ImagenTime
 ```
 ## 📊 Data
 For your convenience, we provide the data along with the necessary code to load it, all in a single zip file. Please download the zip file from the following here: [`unzip_to_data`](https://drive.google.com/drive/folders/11PXAj0RYei5MyXJVasikmYnEDK6V8awt?usp=share_link)
