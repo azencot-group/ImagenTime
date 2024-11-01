@@ -1,4 +1,4 @@
-##  Utilizing Image Transforms and Diffusion Models for Generative Modeling of Short and Long Time Series (TS2IMG)
+##  Utilizing Image Transforms and Diffusion Models for Generative Modeling of Short and Long Time Series (ImagenTime)
 
 ### [Paper]()
 ![TS2IMG samples](visuals/ts2img.png)
@@ -8,8 +8,8 @@ This project presents a novel approach to generative modeling of time series dat
 ## Setup
 Download and set up the repository:
 ```bash
-git clone https://github.com/azencotgroup/TS2IMG.git (change to anonymous)
-cd TS2IMG
+git clone https://github.com/azencot-group/ImagenTime.git
+cd ImagenTime
 ```
 
 We provide a [`requirements.yaml`](requirements.yaml) file to easily create a Conda environment configured to run the model:
@@ -29,7 +29,6 @@ If you use these datasets, please cite the sources as referenced in our [paper](
 ## :rocket: Usage
 We include three main scripts to perform different tasks:
 
-- **Conditional Generation**: [`run_conditional.py`](run_conditional.py) - Executes the conditional generation task.
 - **Unconditional Generation**: [`run_unconditional.py`](run_unconditional.py) - Executes the unconditional generation task.
 - **Visualization Metrics**: [`run_visualization.py`](run_visualization.py) - Executes the visualization of various metrics.
   
@@ -37,15 +36,11 @@ We include three main scripts to perform different tasks:
 
 **For Training and Evaluation of Unconditional Generation:**
 ```bash
-python run_unconditional.py --config ./configs/unconditional/TS2I/<desired_dataset>.yaml
-```
-**For Training and Evaluation of Extrapolation/Interpolation**
-```bash
-python run_conditional.py --config ./configs/<extrapolation/interpolation>/TS2I/<desired_dataset>.yaml
+python run_unconditional.py --config ./configs/unconditional/<desired_dataset>.yaml
 ```
 **Visualization Metrics (t-SNE, PCA, etc.):**
 ```bash
-python run_visualization.py --config ./configs/unconditional/TS2I/<desired_dataset>.yaml
+python run_visualization.py --config ./configs/unconditional/<desired_dataset>.yaml
 ```
 ## BibTeX
 add citation
