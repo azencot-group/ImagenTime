@@ -1,0 +1,24 @@
+name: ImagenTime
+channels:
+  - pytorch
+  - nvidia
+dependencies:
+  - python >= 3.8
+  - pytorch = 2.0.0
+  - torchvision = 0.15.0
+  - torchaudio = 2.0.0
+  - pytorch-cuda = 11.8
+  - numpy >= 1.23
+  - pip:
+    - omegaconf
+    - seaborn
+    - einops
+    - extensions
+    - matplotlib
+    - neptune
+    - tqdm
+    - pillow
+    - scipy
+    - argparse
+    - scikit-learn == 1.2.2
+    - tensorflow == 2.12.0
