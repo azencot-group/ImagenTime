@@ -1,4 +1,6 @@
 ##  Utilizing Image Transforms and Diffusion Models for Generative Modeling of Short and Long Time Series (ImagenTime)
+## News
+We are happy to announce that the paper has been accepted to *NeurIPS2024*
 
 ### [Paper]()
 ![TS2IMG samples](visuals/ts2img.png)
