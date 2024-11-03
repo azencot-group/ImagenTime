@@ -30,7 +30,7 @@ Then, unzip the file into the project's empty `/data` folder. That's it! All unz
 
 If you use these datasets, please cite the sources as referenced in our [paper](link_to_your_paper).
 ## :rocket: Usage
-We include three main scripts to perform different tasks:
+We include two main scripts to perform different tasks:
 
 - **Unconditional Generation**: [`run_unconditional.py`](run_unconditional.py) - Executes the unconditional generation task.
 - **Visualization Metrics**: [`run_visualization.py`](run_visualization.py) - Executes the visualization of various metrics.
