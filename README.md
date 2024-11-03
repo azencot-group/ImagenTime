@@ -43,8 +43,12 @@ python run_unconditional.py --config ./configs/unconditional/<desired_dataset>.y
 python run_visualization.py --config ./configs/unconditional/<desired_dataset>.yaml
 ```
 ## BibTeX
-add citation
-## License
-add license 
+@article{naiman2024utilizing,
+  title={Utilizing Image Transforms and Diffusion Models for Generative Modeling of Short and Long Time Series},
+  author={Naiman, Ilan and Berman, Nimrod and Pemper, Itai and Arbiv, Idan and Fadlon, Gal and Azencot, Omri},
+  journal={arXiv preprint arXiv:2410.19538},
+  year={2024}
+}
+
 
 
