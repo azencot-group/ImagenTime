@@ -3,7 +3,7 @@ We are happy to announce that the paper has been accepted to *NeurIPS2024*
 
 ##  Utilizing Image Transforms and Diffusion Models for Generative Modeling of Short and Long Time Series (ImagenTime)
 
-### [Paper]()
+### [Paper](https://arxiv.org/abs/2410.19538)
 ![TS2IMG samples](visuals/ts2img.png)
 ## ℹ️ Overview
 This project presents a novel approach to generative modeling of time series data by transforming sequences into images. Our method effectively handles both short and long sequences and supports various tasks, including unconditional generation, interpolation, and extrapolation. By leveraging invertible transforms such as delay embedding and the short-time Fourier transform,
