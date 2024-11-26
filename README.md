@@ -63,9 +63,9 @@ python run_unconditional.py --config ./configs/unconditional/<desired_dataset>.y
 ```bash
 python run_visualization.py --config ./configs/unconditional/<desired_dataset>.yaml
 ```
-**For Training and Evaluation of Unconditional Generation:**
+**For Training and Evaluation of Conditional Generation:**
 ```bash
-python run_unconditional.py --config ./configs/unconditional/<desired_dataset>.yaml
+python run_conditional.py --config ./configs/conditional/<interpolation or extrapolation>/<desired_dataset>.yaml
 ```
 
 ## BibTeX
