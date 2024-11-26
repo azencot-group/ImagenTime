@@ -1,0 +1,26 @@
+# training:
+epochs: 1000
+batch_size: 4
+learning_rate: 0.0001 #1e-4
+weight_decay: 0.00001 #1e-5
+task: interpolation
+mask_rate: 0.5 # physionet and USHCN are sparse datasets that uses their own masking.
+  # Please see  https://github.com/boschresearch/Continuous-Recurrent-Units for more information.
+# data:
+dataset: kdd_cup
+# transform:
+use_stft: false
+delay: 86
+embedding: 128
+# model:
+img_resolution: 128
+input_channels: 1
+unet_channels: 128
+ch_mult: [1,2,4,4]
+attn_resolution: [32,16,8]
+diffusion_steps: 36
+ema: true
+ema_warmup: 100
+# logging:
+logging_iter: 100
+

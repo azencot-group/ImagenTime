@@ -1,0 +1,35 @@
+# training:
+epochs: 1000
+batch_size: 32
+learning_rate: 0.0001 #1e-4
+weight_decay: 0.00001 #1e-5
+task: interpolation
+mask_rate: 0.5 # physionet and USHCN are sparse datasets that uses their own masking.
+  # Please see  https://github.com/boschresearch/Continuous-Recurrent-Units for more information.
+# data:
+dataset: ETTh1
+root_path: ./data/short_range/ETT-small/
+data_path: ETTh1.csv
+label_len: 0 # not in use
+seq_len: 96
+pred_len: 0 # not in use
+features: M # not in use
+target: OT # not in use
+seasonal_patterns: Monthly # not in use
+freq: h
+# transform:
+use_stft: false
+delay: 3
+embedding: 32
+# model:
+img_resolution: 32
+input_channels: 7
+unet_channels: 128
+ch_mult: [1,2,2,2]
+attn_resolution: [32,16,8]
+diffusion_steps: 18
+ema: true
+ema_warmup: 100
+# logging:
+logging_iter: 100
+
