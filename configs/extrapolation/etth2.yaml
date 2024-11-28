@@ -24,8 +24,8 @@ embedding: 32
 # model:
 img_resolution: 32
 input_channels: 7
-unet_channels: 128
-ch_mult: [1,2,2,4]
+unet_channels: 32
+ch_mult: [1,2]
 attn_resolution: [32,16,8]
 channel_mult_emb: 2
 num_blocks: 2

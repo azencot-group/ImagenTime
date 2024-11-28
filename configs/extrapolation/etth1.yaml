@@ -23,8 +23,8 @@ delay: 3
 embedding: 32
 # model:
 img_resolution: 32
-input_channels: 14
-unet_channels: 32
+input_channels: 7
+unet_channels: 64
 ch_mult: [1, 2]
 attn_resolution: [16, 8, 4]
 diffusion_steps: 18
