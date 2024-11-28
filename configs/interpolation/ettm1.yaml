@@ -25,7 +25,7 @@ embedding: 32
 img_resolution: 32
 input_channels: 7
 unet_channels: 64
-ch_mult: [1,2,4,8]
+ch_mult: [1,2]
 attn_resolution: [32,16,8]
 diffusion_steps: 18
 ema: true
