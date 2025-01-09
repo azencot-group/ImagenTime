@@ -47,7 +47,7 @@ Then, unzip the file into the project's empty `/data` folder. That's it! All unz
 If you use these datasets, please cite the sources as referenced in our [paper](https://arxiv.org/abs/2410.19538).
 
 ## :rocket: Usage
-We include two main scripts to perform different tasks:
+We include three main scripts to perform different tasks:
 
 - **Unconditional Generation**: [`run_unconditional.py`](run_unconditional.py) - Executes the unconditional generation task.
 - **Visualization Metrics**: [`run_visualization.py`](run_visualization.py) - Executes the visualization of various metrics.
@@ -59,15 +59,16 @@ We include two main scripts to perform different tasks:
 ```bash
 python run_unconditional.py --config ./configs/unconditional/<desired_dataset>.yaml
 ```
-**Visualization Metrics (t-SNE, PCA, etc.):**
-```bash
-python run_visualization.py --config ./configs/unconditional/<desired_dataset>.yaml
-```
 **For Training and Evaluation of Conditional Generation:**
 ```bash
 python run_conditional.py --config ./configs/conditional/<interpolation or extrapolation>/<desired_dataset>.yaml
 ```
+**Visualization Metrics (t-SNE, PCA, etc.):**
+> Note that the visualization script expects a trained model, so you must run the training scripts first.
 
+```bash
+python run_visualization.py --config ./configs/unconditional/<desired_dataset>.yaml
+```
 ## BibTeX
 ```
 @article{naiman2024utilizing,
