@@ -72,9 +72,11 @@ python run_visualization.py --config ./configs/unconditional/<desired_dataset>.y
 ## BibTeX
 ```
 @article{naiman2024utilizing,
-  title={Utilizing Image Transforms and Diffusion Models for Generative Modeling of Short and Long Time Series},
+  title={Utilizing image transforms and diffusion models for generative modeling of short and long time series},
   author={Naiman, Ilan and Berman, Nimrod and Pemper, Itai and Arbiv, Idan and Fadlon, Gal and Azencot, Omri},
-  journal={arXiv preprint arXiv:2410.19538},
+  journal={Advances in Neural Information Processing Systems},
+  volume={37},
+  pages={121699--121730},
   year={2024}
 }
 ```
