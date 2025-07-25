@@ -1,4 +1,8 @@
 ## News
+- (July 2025) We released ImagenFew code: https://github.com/azencot-group/ImagenFew
+- (May 2025) We announce our new model - ImagenFew. [Technical report](https://arxiv.org/pdf/2505.20446)
+             TL;DR - ImagenFew is a unified diffusion-based generative framework that can synthesize high-fidelity time series across diverse domains using just a
+                     few examples.
 - (September 2024) We are happy to announce that the paper has been accepted to *NeurIPS2024*
 - (November 2024) Conditional benchmarking is now available for all datasets.
 
