@@ -1,4 +1,6 @@
 ## News
+- (Sep 2025) Our papers: “A Diffusion Model for Regular Time Series Generation from Irregular Data” and “Time Series Generation Under Data Scarcity: A Unified Generative Modeling Approach” were accepted to NeurIPS 2025.
+- (Sep 2025) We released ImagenI2R code: https://github.com/azencot-group/ImagenI2R
 - (July 2025) We released ImagenFew code: https://github.com/azencot-group/ImagenFew
 - (May 2025) We announce our new model - ImagenFew. [Technical report](https://arxiv.org/pdf/2505.20446)
              TL;DR - ImagenFew is a unified diffusion-based generative framework that can synthesize high-fidelity time series across diverse domains using just a
